@@ -1,0 +1,27 @@
+package Arrayprograms;
+
+public class Pattern2 {
+
+	public static void main(String[] args) {
+		
+		for(int no = 5; no>=1; no--)
+	    {
+	        for(int star = 1; star<no; star++)
+	        {  
+	        	System.out.print(" ");     //1space
+	        }
+	        for (int num = 1; num<=6-no;num++)
+	        {
+	        System.out.print(no + "   "); //3space
+	        
+//	        System.out.print(1 + " "); 
+//	        System.out.print(1 + " "); 
+//	        System.out.print(1 + " "); 
+//	        System.out.print(1 + " "); 
+	        }
+	        System.out.println(); 
+	    }
+	    
+	}
+
+}

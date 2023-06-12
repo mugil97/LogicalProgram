@@ -1,0 +1,30 @@
+package Sunday;
+
+public class ExceptionDemo11 {
+
+	public static void main(String[] args) {
+		
+		ExceptionDemo11 ed = new ExceptionDemo11();
+		
+		int[] marks = {10,20,30,40,50};
+		
+		for(int i =0;i<marks.length;i++)
+		{
+		if (marks[i]>40)
+		{
+			System.out.println("pass");
+		}
+		else
+		{
+			System.out.println("fails");
+		}
+		}		
+		
+		
+			
+		
+		
+	
+}
+}
+

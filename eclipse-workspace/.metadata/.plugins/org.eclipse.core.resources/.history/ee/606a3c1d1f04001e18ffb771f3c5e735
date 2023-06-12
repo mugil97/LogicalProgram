@@ -1,0 +1,29 @@
+package Sunday;
+
+public class ExceptionDemo11 {
+
+	public static void main(String[] args) {
+		
+		ExceptionDemo11 ed = new ExceptionDemo11();
+		
+		int[] a = {10,20,30,40,50};
+		
+		try {
+			for(int i = 0;i<a.length;i++)
+		{
+			System.out.println(a[i]);
+		}
+			
+		}
+		catch(ArrayIndexOutOfBoundsException j)
+		{
+			System.out.println("Array index out of range");
+		}
+		
+			
+		
+		
+	
+}
+}
+

@@ -1,0 +1,234 @@
+package String_Work;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Sample s = new Sample();
+//		s.bigno();
+//		s.choco();
+//		s.Second_Largest();
+//		s.Second_Smallest();
+//		s.multiply();
+//		s.concodinate();
+		s.Pattern_Program();
+		
+		
+		
+	}
+
+	private void Pattern_Program() {
+		// TODO Auto-generated method stub		
+		
+		
+//		for(int row = 1;row<=3;row++)
+//		{
+//			for(int col = 1;col<=row;col++)
+//			{
+//				System.out.print(row+ " ");
+//			}
+//			System.out.println();
+//		}
+//		
+//		for(int row = 3;row>=1;row--)
+//		{
+//			for (int col = 1; col<=row;col++)
+//			{
+//				System.out.print(row+" ");
+//			}
+//			System.out.println();
+//		}
+		for(int row = 1;row<=3;row++)
+		{
+			for(int col1 = 1;col1<row;col1++)
+			{
+				System.out.print("@");
+			}
+			for(int col2 =3;col2>=row;col2--)
+			{
+				System.out.print("#");
+			}
+			System.out.println();
+		}
+	
+		
+		
+//		row++;
+//		for(int col = row;col<=row;col++)
+//		{
+//			System.out.print(row);
+//			
+//		}
+//		System.out.println();
+		}
+		
+		
+		
+
+	private void concodinate() {
+		// TODO Auto-generated method stub
+		
+		int [] a = {10,20,30};
+		int[] b = {40,50,60,70};
+		
+		
+		int l = a.length+b.length;
+		int[] c = new int[l];
+		
+		
+		int i ;
+		for(i =0;i<a.length;i++)
+		{
+			c[i] = a[i];   //10 20 30 
+	
+		for(int j = 0;j<c.length;j++)
+		{
+			c[i] = b[j];  
+		}
+		}
+		for(int k = 0;k<c.length;k++)
+		{
+			System.out.println(c[k]);
+			
+		}
+	}
+
+	private void multiply() {
+		// TODO Auto-generated method stub
+		int [] a = {1,2,3,4,5};
+		int [] b = {4,5,6,7,5};
+		int [] c = new int[b.length];
+		
+		int j = 0;
+		for(int i = 0;i<c.length;i++)
+		{
+			c[i] = a[i]*b[j];
+			j++;
+		}
+		
+		for(int i = 0;i<c.length;i++)
+		{
+			System.out.println(c[i]);
+		}
+		
+		
+		
+		
+	}
+
+	private void Second_Smallest() {
+		// TODO Auto-generated method stub
+		int [] a = {90,78,38,91,80};
+		int small = Integer.MAX_VALUE;
+		int ssmall = Integer.MAX_VALUE;
+		for (int i =0;i<a.length;i++)
+		{
+			if(a[i]<small)
+			{
+				ssmall = small;
+				small = a[i];
+			}
+			else if(a[i]<ssmall)
+			{
+				ssmall = a[i];
+			}
+		}
+		System.out.println("smallest no is " + small);
+		System.out.println("second smallest no is " + ssmall);
+		
+		
+		
+	}
+
+	private void Second_Largest() {
+		// TODO Auto-generated method stub
+		
+
+		int[] b = {90,76,48,30,89};
+		int big = Integer.MIN_VALUE;
+		int bbig = Integer.MIN_VALUE;
+		for(int i =0;i<b.length;i++)
+		{
+			if(b[i]>big)
+			{
+				bbig = big;
+				big = b[i];
+			}
+			 else if(b[i]>bbig)
+			 {
+				 bbig = b[i];
+			 }
+				
+		}
+		System.out.println("biggest no is " + big);
+		System.out.println("second biggest no is " + bbig);
+		
+		
+	}
+
+	private void bigno() {
+		// TODO Auto-generated method stub
+		
+		
+		int[] a = {90,80,70,60,92};
+		String []s = {"tamil","english","maths","science","social"};
+		int highest = a[0];
+		int lowest = a [0];
+		int high = 0;
+		int low = 0;
+		
+		for (int i = 0;i<a.length;i++)
+		{
+			if(a[i]>highest)
+			{
+				highest = a[i];
+				high = i;
+				
+			}
+			if(a[i]<lowest)
+			{
+				lowest= a[i];
+				low = i;
+				
+			}
+			
+		}System.out.println("highest no is " + highest+ " from " + s[high]);
+		System.out.println("lowest no is " + lowest + " from "+ s[low]);
+//		
+//		
+//	    
+		
+		
+	}
+
+	private void choco() {
+		// TODO Auto-generated method stub
+		
+		int choco = 15;
+		int total = 0;
+		int wrapper =0;
+	
+	
+		
+		total = total  + choco;  //15
+		
+		choco = total / 3; //15/3 = 5
+		int rem = choco;
+		
+		total = total+choco;  //20
+		
+		choco = rem/3;  //1
+		total = total + choco;  //21
+		int rem1 = choco;
+		if (rem>=2)
+		{
+			total = total + 1;
+	}
+		System.out.println(total);
+	}
+}
+
+
+		
+		

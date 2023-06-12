@@ -1,0 +1,39 @@
+package String_Work;
+
+public class String_Separate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		String_Separate ss = new String_Separate();
+//		
+////		ss.alphabet();
+////		ss.number();
+//		ss.specialletter();
+//		ss.choco();
+//	}
+
+	private void choco() {
+		// TODO Auto-generated method stub
+		int choco = 15;
+		int total = 0;
+		int wrapper =choco;
+	for (int i = 0;i<=2;i++)
+	{
+		total = total  + choco;
+		
+		choco = wrapper / 3;
+	}	
+	
+		System.out.println();
+	
+	
+}
+	}
+		
+		
+		
+		
+	
+
+

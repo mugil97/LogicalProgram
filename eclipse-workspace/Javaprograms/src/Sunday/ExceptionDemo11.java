@@ -1,0 +1,38 @@
+package Sunday;
+
+public class ExceptionDemo11 {
+
+	public static void main(String[] args) {
+		
+		ExceptionDemo11 ed = new ExceptionDemo11();
+		
+		ed.student(20);
+		ed.Division();
+		
+		
+			
+		
+		
+	
+}
+
+	private void Division() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void student(int age) {
+		// TODO Auto-generated method stub
+		
+		if (age>=18)
+		{
+			System.out.println("Ur Eligible");
+		}
+		else
+		{
+			System.out.println("Ur not Eligible");
+		}
+		}		
+	}
+
+

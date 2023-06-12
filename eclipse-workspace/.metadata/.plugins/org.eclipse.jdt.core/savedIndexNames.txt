@@ -1,0 +1,8 @@
+INDEX VERSION 1.132+/home/mugil/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+2245001677.index
+162323187.index
+4003156074.index
+2513640803.index
+4098888767.index
+1865797976.index
+3827254585.index

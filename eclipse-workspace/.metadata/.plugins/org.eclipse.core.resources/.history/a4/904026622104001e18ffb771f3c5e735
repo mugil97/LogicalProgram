@@ -1,0 +1,14 @@
+package Sunday;
+
+public class Exception12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ExceptionDemo11 ed = new ExceptionDemo11();
+		ed.student(-3);
+
+		
+	}
+
+}

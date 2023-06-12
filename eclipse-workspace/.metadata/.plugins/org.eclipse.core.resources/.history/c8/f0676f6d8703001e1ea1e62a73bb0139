@@ -1,0 +1,26 @@
+package com.java;
+
+public class LowAttendancException extends RuntimeException{
+
+	public void allowForExams(int attendance)
+	  {
+	    //100/0
+	    //-5
+	    //
+	    if(attendance>=75)
+	    {
+	      System.out.println("Permit Students");
+	    }
+	    else
+	    {
+	      LowAttendancException lae = new LowAttendancException();
+	      throw lae; 
+	    }
+	    
+
+	    
+	  
+
+}
+
+}

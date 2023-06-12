@@ -1,0 +1,45 @@
+package Learingjava;
+
+public class ForLoopDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i;
+	    int[] a = {10,20,30};
+	    int[] b = {40,50,60};
+	    int[] c = new int[a.length+b.length];
+	    
+	    for(i= 0;i<a.length;  i++)
+	    {
+	      System.out.println("hi"); 
+	    }
+	    System.out.println(i);
+	    while(i<c.length){
+	      c[i] = b[a.length - i];
+	      i++; 
+	      
+	    }
+	}
+
+	public void print_reverse() {
+		// TODO Auto-generated method stub
+		
+		char[] name = {'s','t','a','l','i','n'}; 
+	    int i = 0, j = name.length-1; 
+
+	    while(i<j)
+	    {
+	    char temp = name[i]; 
+	    name[i] = name[j]; 
+	    name[j] = temp; 
+	    i++; 
+	    j--; 
+	    }
+
+	    for(int k=0; k<name.length; k++)
+	    {
+	    System.out.print(name[k]+" "); 
+	    }
+	}
+
+}

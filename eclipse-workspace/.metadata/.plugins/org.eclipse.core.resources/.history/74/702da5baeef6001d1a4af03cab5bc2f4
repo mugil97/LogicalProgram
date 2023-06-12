@@ -1,0 +1,16 @@
+package Arrayprograms;
+
+public class Pattern2 {
+
+	public static void main(String[] args) {
+		
+		for(int no = 1; no<=5; no++)
+	    {
+	        for(int star = 1; star<no; star++)
+	        {   System.out.print("* ");     }
+	        System.out.println(); 
+	    }
+	    
+	}
+
+}

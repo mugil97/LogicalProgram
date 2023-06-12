@@ -1,0 +1,7 @@
+package Sunday;
+
+public class Snippet {
+	ExceptionDemo11 ed = new ExceptionDemo11();
+	
+}
+
